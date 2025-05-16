@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Phone, Award, Heart, Sparkles, Star } from "lucide-react";
+import { Phone, Award, Heart, Sparkles, Star, Salad, Sprout } from "lucide-react";
 import { useState } from "react";
 
 const Index = () => {
@@ -169,32 +169,32 @@ const Index = () => {
             <ProductCard 
               title="Fruit Bowls" 
               description="Fresh, seasonal fruits combined in colorful, nutritious bowls. Perfect for a refreshing snack or light meal."
-              image="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png"
+              image="https://images.unsplash.com/photo-1490474504059-bf2db5ab2348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80"
             />
             <ProductCard 
               title="Sprouts" 
               description="Nutrient-packed sprouts prepared with light seasoning. High in protein and essential vitamins."
-              image="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png"
+              image="https://images.unsplash.com/photo-1576343286280-f9a228010732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80"
             />
             <ProductCard 
               title="Salads" 
               description="Crisp, garden-fresh salads with a variety of toppings and homemade dressings."
-              image="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png"
+              image="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80"
             />
             <ProductCard 
               title="Thali" 
               description="Complete, balanced meals featuring multiple dishes for a satisfying dining experience."
-              image="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png"
+              image="https://images.unsplash.com/photo-1546833998-877b37c3e5c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80"
             />
             <ProductCard 
               title="Fresh Juices" 
               description="Cold-pressed juices made from seasonal fruits and vegetables. No added sugar or preservatives."
-              image="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png"
+              image="https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
             />
             <ProductCard 
               title="Healthy Snacks" 
               description="Nutritious, guilt-free snacks for any time of day. Perfect for on-the-go energy."
-              image="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png"
+              image="https://images.unsplash.com/photo-1599490659213-e2b9527bd087?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80"
             />
           </div>
           
@@ -209,7 +209,7 @@ const Index = () => {
                       <CardContent className="flex flex-col items-center justify-center p-0">
                         <div className="w-full h-56 overflow-hidden">
                           <img 
-                            src="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png" 
+                            src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80" 
                             alt="Mixed Fruit Bowl" 
                             className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                           />
@@ -228,7 +228,7 @@ const Index = () => {
                       <CardContent className="flex flex-col items-center justify-center p-0">
                         <div className="w-full h-56 overflow-hidden">
                           <img 
-                            src="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png" 
+                            src="https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80" 
                             alt="Sprout Salad" 
                             className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                           />
@@ -247,7 +247,7 @@ const Index = () => {
                       <CardContent className="flex flex-col items-center justify-center p-0">
                         <div className="w-full h-56 overflow-hidden">
                           <img 
-                            src="/lovable-uploads/df235ab1-0bbd-4c01-a519-ccbaccad3700.png" 
+                            src="https://images.unsplash.com/photo-1564671546498-bbc2e02b1220?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" 
                             alt="Mini Thali" 
                             className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                           />
