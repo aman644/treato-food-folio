@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
@@ -172,7 +173,7 @@ const Index = () => {
             />
             <ProductCard 
               title="Sprouts" 
-              description="Nutrient-packed sprouts prepared with light seasoning. High in protein and essential vitamins."
+              description="Nutritious germinated pulses rich in enzymes and vitamins. Our sprouts are fresh, crunchy and perfect for salads or healthy snacking."
               image="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80"
             />
             <ProductCard 
@@ -234,7 +235,7 @@ const Index = () => {
                         </div>
                         <div className="p-6 text-center bg-white">
                           <h4 className="font-semibold text-lg mb-2">Mixed Sprout Salad</h4>
-                          <p className="text-gray-600">Protein-packed and flavorful with our signature dressing</p>
+                          <p className="text-gray-600">Fresh germinated pulses with our special seasoning for maximum nutrition</p>
                         </div>
                       </CardContent>
                     </Card>
