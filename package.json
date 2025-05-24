@@ -10,6 +10,8 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",                   // <-- NEW LINE
+    "deploy": "gh-pages -d dist -b main"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
